@@ -1,13 +1,13 @@
 import React from "react";
 import TaskList from "@/components/TaskList";
 
-const Index = () => {
+const TodayPage = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Inbox</h1>
+      <h1 className="text-2xl font-bold mb-4">Today</h1>
       <TaskList />
     </div>
   );
 };
 
-export default Index;
+export default TodayPage;
